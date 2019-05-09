@@ -1,0 +1,62 @@
+
+
+@media (min-width: 768px) {
+    #header ul{
+        padding-right: 50px;
+        font-size: 2rem;
+    }
+    #header ul li a{
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 6rem;
+        letter-spacing: 2px;
+    }
+    .landing {
+        height: 100vh;
+      }
+
+      .caption{
+        top: 55%;
+    }
+    h2 {
+        font-size: 4rem;
+        font-weight: 300;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    .story-heading{
+text-align: right;
+    }
+
+    .empty{
+        height: 45%;
+    }
+    .quote-baseline{
+        height: 0;
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .about-card{
+        border: 1px solid rgb(201, 201, 201);
+      height: 450px;
+    }
+    .story-text{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .videos{
+        display: none;
+    }
+
+    .about-btn-mobile-enquire {
+        margin-left: 88%;
+    }
+  }
+
+
+

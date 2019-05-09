@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SAFARI</title>
+    <link rel="stylesheet" href="vendors/bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/css/fixed.css" />
+    <link rel="stylesheet" href="vendors/css/aos.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/queries.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav id="header" class="navbar navbar-expand-md navbar-dark position-absolute">
+      <div class="container text-right mr-5">
+        <a id="page-top" class="navbar-brand" href="#"><img src="resources/img/logo-1.png" alt="" srcset="" class="logo"/></a>
+        <button
+          class="navbar-toggler navbar-toggler-right menu-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item"><a id="about" class="nav-link" href="#">ABOUT</a></li>
+            <li class="nav-item"><a id="expertise" class="nav-link" href="#">PACKAGES</a></li>
+            <li class="nav-item"><a id="contact" class="nav-link" href="#">Generic</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing -->
+    <div class="landing">
+      <div class="home-wrap"><div class="home-inner"></div></div>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Caption -->
+    <div class="caption text-center"><h1 class="text-uppercase" data-aos="fade-up">Let us take you on an adventure</h1></div>
+    <!-- End Caption -->
+
+    <!-- About -->
+    <div class="container text-center mt-5 about">
+      <h2 class="text-uppercase"  data-aos="fade-up" data-aos-duration="700">redefining safari</h2>
+      <div class="row">
+        <div class="col-lg-4 box box1" data-aos="fade-right">
+          <h3 class="text-uppercase mb-4">affordable</h3>
+          <div class="card about-card">
+            <img class="card-img-top w-100 pb-5" src="resources/img/affordableImage.png" alt="Card image cap" />
+            <div class="card-block">
+              <p class="card-text about-card-text">
+                Everyone should experience the majesty of Safari. At Taylors Africa it is our mission to offer the most
+                affordable bush adventure in all of Zimbabwe
+              </p>
+              <a href="#" class="btn btn-outline-dark text-uppercase about-btn">See rates</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 box box2" data-aos="zoom-out">
+          <h3 class="text-uppercase mb-4">Mobile</h3>
+          <div class="card about-card">
+            <img class="card-img-top w-100 pb-5" src="resources/img/mobileImage.png" alt="Card image cap" />
+            <div class="card-block">
+              <p class="card-text about-card-text">
+                We are proud to be the first of its kind, mobile Safari adventure. Our nomadic experience provides a unique
+                opportunity to see Zimbabwe like never before.
+              </p>
+              <a href="#" class="btn btn-outline-dark text-uppercase about-btn about-btn-mobile">more on mobile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 box box3" data-aos="fade-left">
+          <h3 class="text-uppercase mb-4">adventure</h3>
+          <div class="card about-card">
+            <img class="card-img-top w-100 pb-5" src="resources/img/adventureImage.png" alt="Card image cap" />
+            <div class="card-block">
+              <p class="card-text about-card-text">
+                Upon arrival, you'll recieve our curate expedition audio guides which will allow you to converse and explore
+                with our guides at a more meaningful level.
+              </p>
+
+              <!-- Button trigger modal-->
+              <button
+                type="button"
+                class="btn btn-outline-dark text-uppercase about-btn"
+                data-toggle="modal"
+                data-target="#learnModal"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--Modal: learnModal-->
+        <div class="modal" id="learnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+              <!--Body-->
+              <div class="modal-body bg-dark" style="height:auto;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <video class="video-fluid z-depth-1" controls>
+                          <source src="resources/videos/57 - Tuning the Page Solution.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <video class="video-fluid z-depth-1" controls>
+                          <source src="resources/videos/79 - Custom CSS for Your Site Solution.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <video class="video-fluid z-depth-1" controls>
+                          <source src="resources/videos/69 - Choosing Features Solution.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Footer-->
+              <div class="modal-footer justify-content-center flex-row flex-md-row">
+                <span class="mr-4">Spread the word!</span> <a href="#"><img src="resources/img/instagram.png" alt=""/></a>
+                <a href="#"><img src="resources/img/facebook.png" alt=""/></a>
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: learnModal-->
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- our story -->
+    <div class="container mt-5 text-center">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-md-7"><h2 class="story-heading text-center" data-aos="fade-right" data-aos-duration="700">Our Story</h2></div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="d-md-block col-md-5" data-aos="zoom-in" data-aos-duration="700">
+          <div class="row">
+            <div class="col-12"><img src="resources/img/ourStory1.png" alt="" class="img-fluid" /></div>
+            <div class="col-12"><img src="resources/img/ourStory2.png" alt="" class="img-fluid" /></div>
+          </div>
+        </div>
+        <div class=" col-md-6 col-lg-5">
+          <div class="card story-card" data-aos="zoom-in" data-aos-duration="700">
+            <div class="card-block text-center">
+              <p class="card-text story-text">
+                Making its grand opening in 2019, Taylors Africa comes from a fourth generation Safari family. this time, we've
+                decided to take a new and innovative approach to exploring the bush
+              </p>
+              <p class="card-text story-text">
+                By going mobile, we're able to enter theree world-class National Parks, thus offering the most diverse,
+                adventrous and compact Big Game experience.
+              </p>
+              <p class="card-text story-text">
+                Our immersive bush podcast also provides a unique opportunity to listen and learn as you ride, allowing you to
+                connect with your guide at a deeper level.
+              </p>
+            </div>
+            <!-- Start Modal -->
+            <!-- Button trigger modal-->
+            <button
+              type="button"
+              class="btn btn-primary story-btn d-lg-inline text-uppercase"
+              data-toggle="modal"
+              data-target="#modalCarousel"
+            >
+              watch our videos
+            </button>
+        </div>
+        <!--Modal: modalCarousel-->
+        <div class="modal" id="modalCarousel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <!--Content-->
+              <div class="modal-content">
+                <!--Body-->
+                <!--Carousel Wrapper-->
+                <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+                  <!--Indicators-->
+                  <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#video-carousel-example" data-slide-to="1"></li>
+                    <li data-target="#video-carousel-example" data-slide-to="2"></li>
+                  </ol>
+                  <!--/.Indicators-->
+                  <!--Slides-->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <video class="video-fluid z-depth-1">
+                        <source src="resources/videos/79 - Custom CSS for Your Site Solution.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <div class="carousel-item">
+                      <video class="video-fluid z-depth-1">
+                        <source src="resources/videos/69 - Choosing Features Solution.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <div class="carousel-item">
+                      <video class="video-fluid z-depth-1">
+                        <source src="resources/videos/57 - Tuning the Page Solution.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                  <!--/.Slides-->
+                  <!--Controls-->
+                  <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span>
+                  </a>
+                  <!--/.Controls-->
+                </div>
+                <!--Carousel Wrapper-->
+
+                <!--Footer-->
+                <div class="modal-footer justify-content-center flex-row flex-md-row">
+                  <span class="mr-4">Spread the word!</span> <a href="#"><img src="resources/img/instagram.png" alt=""/></a>
+                  <a href="#"><img src="resources/img/facebook.png" alt=""/></a>
+
+                  <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End our Story -->
+
+    <!-- Packages -->
+    <div class="container-fluid packages-bg mt-5 text-center">
+      <h2 class="pt-5">Packages</h2>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div class="row justify-content-around" >
+            <div class="col-md-3 packages-top">
+              <h3 class="packages-duration">1 DAY</h3>
+              <p>
+                Matobo National Park <br />
+                Walk with Rhino <br />
+                Rock art & cave paintings
+              </p>
+            </div>
+            <div class="col-md-3 packages-top">
+              <h3 class="packages-duration">2 DAYS</h3>
+              <p>
+                Matobo National Park <br />
+                2 Days exploring the bush <br />
+                1 Night camping under the stars
+              </p>
+            </div>
+            <div class="col-md-3 packages-top">
+              <h3 class="packages-duration">3 DAYS</h3>
+              <p>
+                Hwange National Park <br />
+                3 Days in Zim's biggest National park <br />
+                2 Nights camping
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-10">
+          <div class="row justify-content-around">
+            <div class="col-md-6 col-lg-5 d-flex flex-row align-items-center bottom">
+              <h3>5</h3>
+              <p class="vertical"><span>D</span><span>A</span><span>Y</span><span>S</span></p>
+              <p>
+                2 Days Victoria Falls <br />
+                3 Days Hwange
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-5 d-flex flex-row align-items-center bottom">
+              <h3>7</h3>
+              <p class="vertical"><span>D</span><span>A</span><span>Y</span><span>S</span></p>
+              <p>
+                2 Days Victoria Falls <br />
+                3 Days Hwange <br />
+                2 Days Matobo
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-md-8 m-auto">
+          <!-- Button trigger modal-->
+          <div class="row">
+            <div class="col text-center">
+              <button
+                type="button"
+                class="btn btn-outline-light text-uppercase packages-btn about-btn-mobile-enquire "
+                data-toggle="modal"
+                data-target="#modalEnquire"
+              >
+                enquire today
+              </button>
+            </div>
+          </div>
+
+          <!--Modal-->
+          <div
+            class="modal fade bg-img"
+            id="modalEnquire"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <!--Content-->
+              <div class="modal-content" style="height: auto">
+                <!--Body-->
+                <div class="container">
+                  <div class="col-lg-12 text-right">
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+
+                  <h3 class="heading-modal pt-5 text-dark text-left">PERSONAL DETAILS</h3>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="name"
+                          type="text"
+                          placeholder="FIRST NAME *"
+                          required="required"
+                          data-validation-required-message="Please enter your name."
+                          aria-invalid="false"
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="email"
+                          type="email"
+                          placeholder="LAST NAME *"
+                          required="required"
+                          data-validation-required-message="Please enter your email address."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="phone"
+                          type="tel"
+                          placeholder="EMAIL *"
+                          required="required"
+                          data-validation-required-message="Please enter your phone number."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="name"
+                          type="text"
+                          placeholder="COUNTRY *"
+                          required="required"
+                          data-validation-required-message="Please enter your name."
+                          aria-invalid="false"
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="email"
+                          type="text"
+                          placeholder="CONTACT NUMBER *"
+                          required="required"
+                          data-validation-required-message="Please enter your email address."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="inquiry"
+                          type="text"
+                          placeholder="TRIP INQUIRY *"
+                          required="required"
+                          data-validation-required-message="Please enter your phone number."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <h3 class="heading-modal pt-5 text-dark text-left">ACCOMMODATION DETAILS</h3>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="check-in"
+                          type="text"
+                          placeholder="CHECK IN *"
+                          required="required"
+                          data-validation-required-message="Please enter your check in."
+                          aria-invalid="false"
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="check-out"
+                          type="text"
+                          placeholder="CHECK OUT *"
+                          required="required"
+                          data-validation-required-message="Please enter your check out."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="adults"
+                          type="number"
+                          placeholder="NUMBER OF ADULTS *"
+                          required="required"
+                          data-validation-required-message="Please enter number of adults."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="children"
+                          type="number"
+                          placeholder="NUMBER OF CHILDREN *"
+                          required="required"
+                          data-validation-required-message="Please enter number of children."
+                          aria-invalid="false"
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
+                          id="email"
+                          type="number"
+                          placeholder="AGE OF CHILDREN *"
+                          required="required"
+                          data-validation-required-message="Please enter age of children."
+                        />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          placeholder="PLEASE LET US KNOW OF ANY SPECIAL DETAILS OR REQUESTS..."
+                          required="required"
+                          data-validation-required-message="Please enter a message."
+                          aria-invalid="false"
+                        ></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12 text-right">
+                    <div id="success"></div>
+                    <button id="sendMessageButton" class="btn btn-outline-dark btn-xl text-uppercase" type="submit">
+                      SUBMIT INQUIRY
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!--/.Content-->
+            </div>
+          </div>
+          <!--Modal-->
+        </div>
+      </div>
+    </div>
+    <!-- End packages -->
+
+    <!-- Quotes -->
+    <div class="container quotes mt-5">
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-md-4 d-flex flex-column">
+          <span class="quote"> &ldquo;</span>
+          <p>
+            Truly the best way to experience Africa! Get ready for incredible jaw dropping views, majestic wild animals, mix in
+            the great charm and knowledge of the world class guides, ann all together great experience!
+          </p>
+          <div class="row">
+            <div class="col d-flex">
+              <img src="resources/img/1.jpg" class="person" alt="" />
+
+              <p class="name">
+                Dylan T. <br />
+                <span class="resort">Vic Falls, Matobos, Hwange</span>
+              </p>
+            </div>
+          </div>
+          <hr class="quote-baseline" />
+        </div>
+        <div class="col-md-4 d-flex flex-column">
+          <span class="quote"> &ldquo;</span>
+          <p>Amazing aunthentic value for money</p>
+          <div class="empty"></div>
+          <div class="row">
+            <div class="col d-flex">
+              <img src="resources/img/2.jpg" class="person" alt="" />
+              <p class="name">
+                Jane T. <br />
+                <span class="resort">Vic Falls, Hwange</span>
+              </p>
+            </div>
+          </div>
+          <hr class="quote-baseline" />
+        </div>
+        <div class="col-md-4 d-flex flex-column">
+          <span class="quote"> &ldquo;</span>
+          <p>What an incredible experience with te best safari company. well done Charles and yourteam!</p>
+          <div class="empty"></div>
+          <div class="row">
+            <div class="col d-flex">
+              <img src="resources/img/3.jpg" class="person" alt="" />
+              <p class="name">
+                Ben B. <br />
+                <span class="resort">Vic Falls, Matobos, Hwange</span>
+              </p>
+            </div>
+          </div>
+          <hr class="quote-baseline" />
+        </div>
+      </div>
+    </div>
+    <!-- End Quotes -->
+
+    <!-- Footer -->
+    <div class="jumbotron mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="text-uppercase footer-heading">contact</h4>
+            <address>
+              +263776030600 <br />
+              0776030600 <br />
+              <a href="#" class="mail">zimmobilesafari@gmail.com</a>
+            </address>
+          </div>
+          <div class="col-md-4 text-uppercase resources">
+            <h4 class=" footer-heading">resources</h4>
+            <address>
+              <a href="#" class="d-block">faq</a> <a href="#" class="d-block">rate details</a>
+              <a href="#" class="d-block">vehicle information</a>
+            </address>
+          </div>
+          <div class="col-md-4 social">
+            <h4 class="text-uppercase footer-heading">follow us</h4>
+            <!-- <a href="#"><img src="resources/img/instagram.png" alt="" /></a>
+              <a href="#"><img src="resources/img/facebook.png" alt="" /></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="vendors/js/jquery-3.3.1.min.js"></script>
+    <script src="vendors/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="vendors/js/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200
+      });
+    </script>
+    <script src="resources/js/main.js"></script>
+  </body>
+</html>
